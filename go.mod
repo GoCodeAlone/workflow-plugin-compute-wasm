@@ -1,6 +1,8 @@
 module github.com/GoCodeAlone/workflow-plugin-compute-wasm
 
-go 1.26.2
+go 1.26.0
+
+toolchain go1.26.2
 
 require (
 	github.com/GoCodeAlone/workflow-plugin-compute-container v0.1.0
