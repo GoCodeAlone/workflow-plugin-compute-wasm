@@ -1,0 +1,33 @@
+{
+  "name": "workflow-plugin-compute-wasm",
+  "version": "0.0.0",
+  "description": "Public WASM and browser runtime adapter plugin for Workflow Compute.",
+  "author": "GoCodeAlone",
+  "license": "MIT",
+  "type": "external",
+  "tier": "community",
+  "private": false,
+  "minEngineVersion": "0.64.7",
+  "keywords": [
+    "compute",
+    "wasm",
+    "browser",
+    "runtime-adapter"
+  ],
+  "homepage": "https://github.com/GoCodeAlone/workflow-plugin-compute-wasm",
+  "repository": "https://github.com/GoCodeAlone/workflow-plugin-compute-wasm",
+  "runtimeAdaptersRef": "runtime-adapters.json",
+  "dependencies": [
+    {
+      "name": "workflow-plugin-compute-core",
+      "constraint": ">=0.3.1"
+    }
+  ],
+  "capabilities": {
+    "configProvider": false,
+    "moduleTypes": [],
+    "stepTypes": [],
+    "triggerTypes": []
+  },
+  "contracts": []
+}
