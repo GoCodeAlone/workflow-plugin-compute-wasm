@@ -1,0 +1,49 @@
+{
+  "version": "v0.1.0",
+  "protocol_version": "compute.v1alpha1",
+  "adapters": [
+    {
+      "adapter_id": "wasm-component",
+      "operation": "run-wasm-component",
+      "kinds": [
+        "execution"
+      ],
+      "workload_kinds": [
+        "wasm-component",
+        "provider"
+      ],
+      "runtime_profiles": [
+        "wasm-component-v1"
+      ],
+      "workspace_policy": "required",
+      "conformance_profiles": [
+        "wasm-component-v1"
+      ]
+    },
+    {
+      "adapter_id": "product-capture-browser",
+      "operation": "capture-product-browser",
+      "kinds": [
+        "execution"
+      ],
+      "workload_kinds": [
+        "product-capture"
+      ],
+      "runtime_profiles": [
+        "browser-worker-wasm-v1",
+        "sandboxed-oci-v1"
+      ],
+      "workspace_policy": "required",
+      "conformance_profiles": [
+        "product-capture-browser-v1"
+      ]
+    }
+  ],
+  "host_owned_responsibilities": [
+    "task admission",
+    "lease state",
+    "tenant authorization",
+    "artifact accounting",
+    "proof and reward mutation"
+  ]
+}

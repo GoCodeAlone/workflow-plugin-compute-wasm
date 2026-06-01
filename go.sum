@@ -1,0 +1,12 @@
+github.com/GoCodeAlone/workflow-plugin-compute-container v0.1.0 h1:OoaIW09cPvjQOgItq/2b9BzXf0JnTk/jSeUqGD8x3Go=
+github.com/GoCodeAlone/workflow-plugin-compute-container v0.1.0/go.mod h1:vZgGSzMvn/UbrkIg39RDwoCD1TPMe0F7/1WQI2xW88M=
+github.com/GoCodeAlone/workflow-plugin-compute-core v0.3.2 h1:BhvXjw2A6GCbhxbDqiDQcW/S3482DGWeGmlPm0CjVhY=
+github.com/GoCodeAlone/workflow-plugin-compute-core v0.3.2/go.mod h1:1T6uCpUWPCNk6XPYgKq5CL/7LkD24MphKYsYVzF4jnI=
+github.com/google/go-cmp v0.7.0 h1:wk8382ETsv4JYUZwIsn6YpYiWiBsYLSJiTsyBybVuN8=
+github.com/google/go-cmp v0.7.0/go.mod h1:pXiqmnSA92OHEEa9HXL2W4E7lf9JzCmGVUdgjX3N/iU=
+github.com/tetratelabs/wazero v1.12.0 h1:DuWcpNu/FzgEXgGBDp8J1Spc+CWOvvtvVyjKlaZopYU=
+github.com/tetratelabs/wazero v1.12.0/go.mod h1:LvKtzl2RqO4gyF27BiXU+nKAjcV8f38U+kP/q2vgxh0=
+golang.org/x/sys v0.44.0 h1:ildZl3J4uzeKP07r2F++Op7E9B29JRUy+a27EibtBTQ=
+golang.org/x/sys v0.44.0/go.mod h1:4GL1E5IUh+htKOUEOaiffhrAeqysfVGipDYzABqnCmw=
+google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af h1:+5/Sw3GsDNlEmu7TfklWKPdQ0Ykja5VEmq2i817+jbI=
+google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af/go.mod h1:HTf+CrKn2C3g5S8VImy6tdcUvCska2kB7j23XfzDpco=
